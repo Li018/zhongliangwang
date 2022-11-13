@@ -1,0 +1,78 @@
+@charset "utf-8";
+.banner {
+    width: 100%;
+    overflow: hidden;
+    .banner-con {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+        .slider-btn {
+            position: absolute;
+            z-index: 5;
+            top: 50%;
+            left: 50%;
+            width: 800px;
+            height: 62px;
+            margin-top: -31px;
+            margin-left: -395px;
+            pointer-events: none;
+               a {
+                    display: block;
+                    width: 28px;
+                    height: 62px;
+                    font: 400 22px/62px simsun;
+                    color: #fff;
+                    text-align: center;
+                    background: url(http://static.womai.com/zhongliang/city/index/images/btn.png) no-repeat;
+                    text-decoration: none;
+                    pointer-events: auto;
+                }
+                .fl {
+    float: left;
+}
+                .fr {
+    float: right;
+}
+        }
+        ul {
+            position: absolute;
+            top: 0;
+            width: 100%;
+                 li {
+                    float: left;
+                    width: 100%;
+                    height: 450px;
+                    text-align: center;
+                    background: url(http://pic.womai.com/pic/sale/2018/selfimages/0831/selfrollbk-0831.png) center top no-repeat rgb(247, 223, 195);
+    display: none;
+                      a {
+                            display: block;
+                            width: 800px;
+                            height: 450px;
+                            text-align: center;
+                            padding-left: 10px;
+                            margin: 0 auto;
+                                    img {
+                                            width: 800px;
+                                            height: 450px;
+                                            margin: 0 auto;
+                                        }
+                        }
+                }
+        }
+         .slider-num {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            z-index: 2;
+            height: 21px;
+            text-align: center;
+             width: 279px;
+             margin-left: -139.5px;
+             overflow:hidden;
+    }
+}
+}
