@@ -30,7 +30,7 @@ window.onload = function Get() {
 
 		}
 	}
-	xmlhttp.open("GET", "http://restapi.amap.com/v3/weather/weatherInfo?key=9efec17481a16b52b53ff7204a10be51&city=350100", true);
+	xmlhttp.open("GET", "https://restapi.amap.com/v3/weather/weatherInfo?key=9efec17481a16b52b53ff7204a10be51&city=350100", true);
 	xmlhttp.send();
 }
 
